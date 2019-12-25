@@ -10,49 +10,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-.open{
-    padding-left: 50px;
-    
-    padding-top: 20px;
-    display: block;
-    cursor: pointer;
-    font-size: 50px;
-    position: absolute;
-    z-index: 0;
-}
-.overlay{
-    height: 100%;
-    position: fixed;
-    width: 0;
-    top: 0;
-    background-color: #3f3f3f;
-    overflow-x: hidden;
-
-    transition: 1s ease;
-
-}
-.overlay-content{
-    text-align: center;
-    position: relative;
-    width: 100%;
-    padding-top: 50px;
-    margin-top: 30px;
-    
-    
-}
-.overlay-content a{
-    font-size: 20px;
-    color: whitesmoke;
-    display:block;
-    padding:10px;
-    text-decoration: none;
-    transition: .4s ;
-    
-}
-.overlay-content a:hover{
-    color:darkslategrey;
-    transition: 1s ease;
-}
 .close{
     padding-left: 30px;
     padding-top: 20px;
@@ -61,8 +18,6 @@
     font-size: 32px;
     color: whitesmoke;
     text-decoration: none;
-  
-
 }
 body{
     background: white;
@@ -91,7 +46,7 @@ h3{
     
 }
 .sectionArea{
-    padding: 80px 0;
+    padding: 50px 0;
 
 }
 /*GRID SETTINGS*/
@@ -139,28 +94,29 @@ header .logo img{
     
 }
 .menu{
+    padding: 10px;
     position: fixed;
+   
     top:0px;
-    left: 0px;
+    left: 0;
     right:0px; 
     z-index: 1;
     height:70px;
     background-color: white;
+     
 }
 .menu li a {
    
-    padding: 20px 50px;
-   
+    
+    padding: 20px 35px ;
     display: block;
     text-decoration: none;
     letter-spacing: 2px;
     color:gray;
 }
-.menu li a:last-child{
-    padding-right: 0;
-}
+
 .menu li a:hover{
-    background:white ;
+    
     color:whitesmoke;
     transition: all .5s ease;
 
@@ -337,3 +293,86 @@ transition: all .5s ease;
   .footerItem{
       padding: 20px;
   }
+
+  footer h3{
+      color: whitesmoke;
+      font-size: 18px;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+
+  }
+
+  .footerLinks a{
+
+      padding-top: 30px;
+      color: white;
+      font-size: 12px;
+      text-decoration: none;
+      line-height: 40px;
+      transition: .5s ease;
+  }
+  .footerLinks a:hover{
+      color: gray;
+  }
+
+  .socialLinks a{
+      float: left;
+      letter-spacing: 20px;
+      font-size: 30px;
+      padding-right: 20px;
+      padding-top: 30px;
+      padding-left: 50px;
+      color: whitesmoke;
+     line-height: 50px;
+     transition: .3s ease;
+  }
+  .socialLinks a:hover{
+      color:blue;
+  }
+
+
+ .sectionHeader{
+     text-align: center;
+ }
+ 
+ /*PHOTO*/
+ #architectSlider {
+    height: 300px;
+    width: 100%;
+    background: url('../img/home.jpg') center center no-repeat;
+    background-size: cover;
+
+    
+}
+
+#architectCaption{
+    height: 300px;
+    background: rgba(0,0,0,.7);
+
+}
+.img{
+    width: 80%;
+    
+}
+.img img{
+    width: 100%;
+    height: auto;
+}
+.imgText{
+    width: 80%;
+    padding-top: 10px;
+}
+h4{
+    color: #212121;
+    font-size: 15px;
+    font-family: bold;
+}
+.imgText a{
+    float: left;
+    text-decoration:none;
+    color: #212121;
+
+}
+.imgText a:hover{
+   color:gray
+}

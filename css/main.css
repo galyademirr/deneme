@@ -376,3 +376,31 @@ h4{
 .imgText a:hover{
    color:gray
 }
+.bioTop img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#bio{
+    background-color:  #333333;
+    
+}
+.pyazı{
+    color: gray;
+}
+
+.isim{
+    color: whitesmoke;
+    margin-left: 200px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font: inherit;
+}
+.isimP{
+    color:whitesmoke;
+    margin-left: 210px;
+    margin-top: 0;
+
+}
